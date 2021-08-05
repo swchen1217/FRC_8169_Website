@@ -1,0 +1,26 @@
+doctype
+html
+    head
+        meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        block title
+            title FRC TEAM 8169
+        link(rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css")
+        link(rel="stylesheet" href="css/main.css")
+        script(src="https://kit.fontawesome.com/2828f7885a.js")
+        link(rel="icon" href="img/favicon.ico")
+    body
+        // Begin Scroll Up Button
+        button#toTop(title='Go to top' onclick="location.href='index.html'")
+            i.fas.fa-angle-up
+        // End Scroll Up Button
+        include ../sub/header
+        block body
+            // content
+        include ../sub/footer
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        link(rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css")
+        script(src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js")
+        script(src="js/main.js")
+
+
