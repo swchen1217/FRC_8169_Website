@@ -131,6 +131,14 @@ body {
     padding-bottom: 80px;
 }
 
+.main-content .section-light.about-us .content {
+    margin-bottom: 0px;
+}
+
+.main-content .section-light.about-us ul {
+    margin-top: 8px;
+}
+
 .main-content .section-light.about-us .right-image img {
     border-radius: 11px;
     margin: 20px;
