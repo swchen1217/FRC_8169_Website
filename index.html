@@ -20,9 +20,9 @@
         <!-- Begin Hero Content-->
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="subtitle">Hey there, We are</h1>
-            <h2 class="title">FRC Team 8169</h2>
-            <h1 class="subtitle profession">Kangshan Super Steel Robot</h1>
+            <h2 class="subtitle is-3">Hey there, We are</h2>
+            <h1 class="title">FRC Team 8169</h1>
+            <h2 class="subtitle is-3 profession">KANGSHAN SUPER STEEL ROBOT</h2>
           </div>
         </div>
         <!-- End Hero Content-->
@@ -30,18 +30,18 @@
         <div class="hero-foot">
           <div class="hero-foot--wrapper">
             <div class="columns">
-              <div class="column is-12 hero-menu-desktop has-text-centered">
+              <div class="column is-12 hero-menu-desktop has-text-centered is-size-5">
                 <nav class="navbar">
                   <div class="navbar-brand">
-                    <div class="navbar-item is-active"><a href="index.html">Home</a></div><a class="navbar-burger burger" data-target="navbarMenu"><span></span><span></span><span></span></a>
+                    <div class="navbar-item is-active"><a href="#home">Home</a></div><a class="navbar-burger burger" data-target="navbarMenu"><span></span><span></span><span></span></a>
                   </div>
                   <div class="navbar-menu" id="navbarMenu">
                     <div class="navbar-start navbar-center">
-                      <div class="navbar-item"><a href="#about-me">關於我們</a></div>
-                      <div class="navbar-item"><a href="#services">團隊成員</a></div>
-                      <div class="navbar-item"><a href="#skills">STEAM 推廣</a></div>
+                      <div class="navbar-item"><a href="#about-us">關於我們</a></div>
+                      <div class="navbar-item"><a href="#member">團隊成員</a></div>
+                      <div class="navbar-item"><a href="#activity">活動紀錄</a></div>
                       <div class="navbar-item"><a href="#sponsor">贊助夥伴</a></div>
-                      <div class="navbar-item"><a href="#my-work">工作日誌</a></div>
+                      <div class="navbar-item"><a href="#logging">工作日誌</a></div>
                       <div class="navbar-item"><a href="#open-source">公開資料</a></div>
                       <div class="navbar-item"><a href="#contact">聯絡我們</a></div>
                     </div>
@@ -55,7 +55,195 @@
       </section>
       <!-- End Hero-->
     </div>
-    <!-- End Header--><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- End Header-->
+    <!-- Begin Main Content-->
+    <div class="main-content">
+      <!-- Begin About Us Section-->
+      <div class="section-light about-us" id="about-us">
+        <div class="container">
+          <div class="column is-12 about-us">
+            <h1 class="title has-text-centered section-title is-size-2">關於我們</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
+              <p class="is-size-5"><strong>
+                  Team 8169是於2020年成立的一支新秀隊伍。共有17位成員及1位教練，由岡山高中和鳳山高中的學生組成。
+                  我們舉辦多項活動致力於推廣STEAM教育，擴大FRC社區。</strong></p><br>
+              <p>
+                8169 這組數字代表著我們是 FIRST Robotics Competition 比賽中第 8169 個註冊的隊伍。
+                成立於2020年，我們的前身是 Team 7741，後來由於人數變多就自己獨立註冊了一個隊伍，
+                其中5位成員來自國立鳳山高中，12位成員來自國立岡山高中，
+                教練則是由岡山高中郭銘哲老師擔任，
+                我們是岡山高中的機器人競賽校隊，而非社團及補習班。
+              </p><br>
+              <p class="is-size-4"><strong>「教育不該照本宣科」</strong></p><br>
+              <p class="is-size-5">是我們團隊的理念，我們相信透過動手嘗試，修正錯誤才是最佳的學習方法。</p>
+            </div>
+            <div class="column is-6 right-image" data-aos="fade-left">
+              <!--img.is-rounded(src='https://picsum.photos/id/366/600/375' alt='')--><img class="is-rounded" src="img/about-us.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Us Section-->
+      <!--.section-dark.resume
+      .container
+          .columns.is-multiline(data-aos='fade-in' data-aos-easing='linear')
+              .column.is-12.about-me
+                  h1.title.has-text-centered.section-title
+                      | View My Resume
+              .column.is-10.has-text-centered.is-offset-1
+                  h2.subtitle
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      | eiusmod tempor incididunt ut labore et doloremagna aliqua
+                  form(action='example.docs')
+                      button.button
+                          | Download Resume&emsp;
+                          i.fad.fa-download.fa-lg
+      -->
+      <!-- Begin Services Content-->
+      <!--#services.section-color.services
+      .container
+          .columns.is-multiline
+              .column.is-12.about-me(data-aos='fade-in' data-aos-easing='linear')
+                  h1.title.has-text-centered.section-title Services
+                  h2.subtitle
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      | eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  br
+              .columns.is-12
+                  .column.is-4.has-text-centered(data-aos='fade-in' data-aos-easing='linear')
+                      i.fad.fa-meteor.fa-3x
+                      hr
+                      h2
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          | do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  .column.is-4.has-text-centered(data-aos='fade-in' data-aos-easing='linear')
+                      i.fas.fa-paint-brush.fa-3x
+                      hr
+                      h2
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          | do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  .column.is-4.has-text-centered(data-aos='fade-in' data-aos-easing='linear')
+                      i.fas.fa-rocket.fa-3x
+                      hr
+                      h2
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          | do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              hr
+              .columns.is-12
+                  .column.is-4.has-text-centered(data-aos='fade-in' data-aos-easing='linear')
+                      i.fas.fa-upload.fa-3x
+                      hr
+                      h2
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          | do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  .column.is-4.has-text-centered(data-aos='fade-in' data-aos-easing='linear')
+                      i.fas.fa-bus.fa-3x
+                      hr
+                      h2
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          | do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  .column.is-4.has-text-centered(data-aos='fade-in' data-aos-easing='linear')
+                      i.fas.fa-code.fa-3x
+                      hr
+                      h2
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                          | do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      -->
+      <!-- End Services Content-->
+      <!-- Begin Skills Content-->
+      <!--#skills.section-light.skills
+      .container
+          .columns.is-multiline
+              .column.is-12.about-me
+                  h1.title.has-text-centered.section-title Skills
+              .column.is-6(data-aos='fade-in' data-aos-easing='linear')
+                  h1 Adobe Experience Design
+                  progress.progress(value='70' max='100') 30%
+                  h1 Adobe After Effects
+                  progress.progress(value='65' max='100') 30%
+                  h1 Visual Studio Code
+                  progress.progress(value='58' max='100') 45%
+                  h1 Sketch
+                  progress.progress(value='90' max='100') 60%
+              .column.is-6(data-aos='fade-in' data-aos-easing='linear')
+                  h1 HTML
+                  progress.progress(value='85' max='100') 30%
+                  h1 CSS
+                  progress.progress(value='95' max='100') 30%
+                  h1 VueJS
+                  progress.progress(value='70' max='100') 45%
+                  h1 React
+                  progress.progress(value='60' max='100') 60%
+      -->
+      <!-- End Skills Content-->
+      <!-- Begin Work Content-->
+      <!--#my-work.section-dark.my-work
+      .container
+          .columns.is-multiline(data-aos='fade-in' data-aos-easing='linear')
+              .column.is-12
+                  h1.title.has-text-centered.section-title My Work
+              .column.is-3
+                  a(href='#')
+                      figure.image.is-2by1.work-item(style="background-image: url('https://picsum.photos/320/180?image=0');")
+              .column.is-3
+                  a(href='#')
+                      figure.image.is-2by1.work-item(style="background-image: url('https://picsum.photos/320/180?image=10');")
+              .column.is-3
+                  a(href='#')
+                      figure.image.is-2by1.work-item(style="background-image: url('https://picsum.photos/320/180?image=20');")
+              .column.is-3
+                  a(href='#')
+                      figure.image.is-2by1.work-item(style="background-image: url('https://picsum.photos/320/180?image=30');")
+              .column.is-3
+                  a(href='#')
+                      figure.image.is-2by1.work-item(style="background-image: url('https://picsum.photos/320/180?image=40');")
+              .column.is-3
+                  a(href='#')
+                      figure.image.is-2by1.work-item(style="background-image: url('https://picsum.photos/320/180?image=50');")
+              .column.is-3
+                  a(href='#')
+                      figure.image.is-2by1.work-item(style="background-image: url('https://picsum.photos/320/180?image=60');")
+              .column.is-3
+                  a(href='#')
+                      figure.image.is-2by1.work-item(style="background-image: url('https://picsum.photos/320/180?image=70');")
+      -->
+      <!-- End Work Content-->
+      <!-- Begin Contact Content-->
+      <!--#contact.section-light.contact
+      .container
+          .columns.is-multiline(data-aos='fade-in-up' data-aos-easing='linear')
+              .column.is-12.about-me
+                  h1.title.has-text-centered.section-title
+                      | Get in touch
+              .column.is-8.is-offset-2
+                  form(action='https://formspree.io/email@example.com' method='POST')
+                      .field
+                          label.label Name
+                          .control.has-icons-left
+                              input.input(type='text' placeholder='Ex. Jane Smith' name='Name')
+                              span.icon.is-small.is-left
+                                  i.fas.fa-user
+                      .field
+                          label.label Email
+                          .control.has-icons-left
+                              input.input(type='email' placeholder='Ex. hello@arctheme.com' name='Email')
+                              span.icon.is-small.is-left
+                                  i.fas.fa-envelope
+                      .field
+                          label.label Message
+                          .control
+                              textarea.textarea(placeholder='Textarea' name='Message')
+                      .field
+                          .control
+                              button.button.submit-button
+                                  | Submit&nbsp;&nbsp;
+                                  i.fas.fa-paper-plane
+      -->
+      <!-- End Contact Content-->
+    </div>
+    <!-- End Main Content-->
     <!-- Begin Footer-->
     <footer class="footer has-text-white">
       <div class="content has-text-centered">
