@@ -26,9 +26,9 @@ window.onscroll = function () {
 // Smooth Anchor Scrolling
 $("a[href^='#']").on("click", function (event) {
     event.preventDefault();
-    console.log($.attr(this, "href"));
-    $("nav.navbar").find(".is-active").removeClass("is-active");
-    $(this).parent().addClass("is-active");
+    //console.log($.attr(this, "href"));
+    //$("nav.navbar").find(".is-active").removeClass("is-active");
+    //$(this).parent().addClass("is-active");
     $("html, body").animate(
         {
             scrollTop: $($.attr(this, "href")).offset().top
