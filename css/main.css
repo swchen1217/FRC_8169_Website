@@ -42,17 +42,19 @@ body {
     border: none;
     outline: none;
     background-color: rgba(241, 138, 35, 0.65);
-    color: white;
     cursor: pointer;
     border-radius: 50%;
     font-size: 2rem;
     box-shadow: 0 5px 20px rgba(241, 138, 35, 0.3);
 }
 
+#toTop a {
+    color: white;
+}
+
 #toTop:hover {
     background-color: rgb(241, 138, 35);
 }
-
 
 .hero {
     background: linear-gradient(rgba(29, 74, 131, 0.65), rgba(241, 138, 35, 0.65)), rgba(0, 0, 0, 0) url("../img/banner_bg.jpg") no-repeat;

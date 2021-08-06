@@ -11,8 +11,9 @@ html
         link(rel="icon" href="img/favicon.ico")
     body
         // Begin Scroll Up Button
-        button#toTop(title='Go to top' onclick="location.href='index.html'")
-            i.fas.fa-angle-up
+        button#toTop(title='Go to top')
+            a(href="#home")
+                i.fas.fa-angle-up
         // End Scroll Up Button
         include ../sub/header
         block body
