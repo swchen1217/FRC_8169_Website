@@ -14,58 +14,53 @@
     <button id="toTop" title="Go to top" onclick="location.href='index.html'"><i class="fas fa-angle-up"></i></button>
     <!-- End Scroll Up Button-->
     <!-- Begin Header-->
-    <div class="header-wrapper" id="home">
-      <!-- Begin Hero-->
-      <section class="hero is-large">
-        <!-- Begin Hero Content-->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <h2 class="subtitle is-3">Hey there, We are</h2>
-            <h1 class="title">FRC Team 8169</h1>
-            <h2 class="subtitle is-3 profession">KANGSHAN SUPER STEEL ROBOT</h2>
-          </div>
+    <!-- Begin Hero-->
+    <section class="hero is-fullheight" id="home">
+      <!-- Begin Hero Content-->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h2 class="subtitle is-3 has-text-white pb-3">Hey there, We are</h2>
+          <h1 class="title has-text-white">FRC Team 8169</h1>
+          <h2 class="subtitle is-3 has-text-white pt-6">KANGSHAN SUPER STEEL ROBOT</h2>
         </div>
-        <!-- End Hero Content-->
-        <!-- Begin Hero Menu-->
-        <div class="hero-foot">
-          <div class="hero-foot--wrapper">
-            <div class="columns">
-              <div class="column is-12 hero-menu-desktop has-text-centered is-size-5">
-                <nav class="navbar">
-                  <div class="navbar-brand">
-                    <div class="navbar-item"><a href="#home">Home</a></div><a class="navbar-burger burger" data-target="navbarMenu"><span></span><span></span><span></span></a>
-                  </div>
-                  <div class="navbar-menu" id="navbarMenu">
-                    <div class="navbar-start navbar-center">
-                      <div class="navbar-item"><a href="#about-us">關於我們</a></div>
-                      <div class="navbar-item"><a href="#member">團隊成員</a></div>
-                      <div class="navbar-item"><a href="#activity">活動紀錄</a></div>
-                      <div class="navbar-item"><a href="#sponsor">贊助夥伴</a></div>
-                      <div class="navbar-item"><a href="#logging">工作日誌</a></div>
-                      <div class="navbar-item"><a href="#open-source">公開資料</a></div>
-                      <div class="navbar-item"><a href="#contact">聯絡我們</a></div>
-                    </div>
-                  </div>
-                </nav>
-              </div>
+      </div>
+      <!-- End Hero Content-->
+      <!-- Begin Hero Menu-->
+      <div class="hero-foot has-background-white">
+        <nav class="navbar has-text-centered is-size-5 px-3">
+          <div class="navbar-brand">
+            <div class="navbar-item"><a href="#home">Home</a></div><a class="navbar-burger burger" data-target="navbarMenu"><span></span><span></span><span></span></a>
+          </div>
+          <div class="navbar-menu" id="navbarMenu">
+            <div class="navbar-start navbar-center">
+              <div class="navbar-item"><a href="#about-us">關於我們</a></div>
+              <div class="navbar-item"><a href="#member">團隊成員</a></div>
+              <div class="navbar-item"><a href="#sponsor">贊助夥伴</a></div>
+              <div class="navbar-item"><a href="#activity">活動紀錄</a></div>
+              <div class="navbar-item"><a href="#robot">機器人介紹</a></div>
+              <div class="navbar-item"><a href="#logging">工作日誌</a></div>
+              <div class="navbar-item"><a href="#open-data">公開資料</a></div>
+              <div class="navbar-item"><a href="#contact">聯絡我們</a></div>
             </div>
           </div>
-        </div>
-        <!-- End Hero Menu-->
-      </section>
-      <!-- End Hero-->
-    </div>
+        </nav>
+      </div>
+      <!-- End Hero Menu-->
+    </section>
+    <!-- End Hero-->
     <!-- End Header-->
     <!-- Begin Main Content-->
-    <div class="main-content">
+    <div class="main-content pt-2 has-text-black">
       <!-- Begin About Us Section-->
-      <div class="section-light about-us" id="about-us">
+      <section class="section about-us" id="about-us">
         <div class="container">
-          <div class="column is-12 about-us">
-            <h1 class="title has-text-centered section-title is-size-2">關於我們</h1>
+          <div class="columns">
+            <div class="column about-us">
+              <h1 class="title has-text-centered section-title is-size-2 has-text-orange">關於我們</h1>
+            </div>
           </div>
           <div class="columns is-multiline">
-            <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
+            <div class="column is-6 has-vertically-aligned-content">
               <p class="is-size-5"><strong>
                   Team 8169 是於 2020 年成立的一支新秀隊伍。共有 17 位成員及 1 位教練，由岡山高中和鳳山高中的學生組成。
                   我們舉辦多項活動致力於推廣 STEAM 教育，擴大FRC社區。</strong></p><br>
@@ -76,8 +71,6 @@
                 教練則是由岡山高中郭銘哲老師擔任，
                 我們是岡山高中的機器人競賽校隊，而非社團及補習班。
               </p><br>
-              <p class="is-size-4"><strong>「教育不該照本宣科」</strong></p><br>
-              <p class="is-size-5"><strong>是我們團隊的理念，我們相信透過動手嘗試，修正錯誤才是最佳的學習方法。</strong></p><br>
               <p class="is-size-5"><strong>獲獎事蹟</strong>
                 <div class="content">
                   <ul>
@@ -90,12 +83,31 @@
                 </div>
               </p>
             </div>
-            <div class="column is-6 right-image" data-aos="fade-left">
-              <!--img.is-rounded(src='https://picsum.photos/id/366/600/375' alt='')--><img class="is-rounded" src="img/about-us.jpg">
+            <div class="column is-6 has-img-radius-shadow-orange">
+              <figure class="image"><img class="is-rounded" src="img/about-us.jpg"></figure>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="section about-us has-background-grey-lighter has-text-orange">
+        <div class="container">
+          <div class="columns">
+            <div class="column about-us">
+              <h1 class="title has-text-centered section-title is-size-2">教育不該照本宣科</h1>
+            </div>
+          </div>
+          <div class="columns is-multiline">
+            <div class="column is-6 has-vertically-aligned-content">
+              <p class="is-size-4">「教育不該照本宣科」是我們團隊的理念，我們相信透過動手嘗試，修正錯誤才是最佳的學習方法。</p>
+            </div>
+            <div class="column is-6 has-iframe-radius-shadow-black">
+              <figure class="image is-16by9">
+                <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/yeQ-fVgm94k" frameborder="0" allowfullscreen></iframe>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- End About Us Section-->
       <!--.section-dark.resume
       .container
@@ -263,8 +275,8 @@
     </footer>
     <!-- End Footer-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <!--link(rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css")-->
+    <!--script(src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js")-->
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -1,43 +1,41 @@
 // Begin Header
-#home.header-wrapper
-    // Begin Hero
-    section.hero.is-large
-        // Begin Hero Content
-        .hero-body
-            .container.has-text-centered
-                h2.subtitle.is-3 Hey there, We are
-                h1.title FRC Team 8169
-                h2.subtitle.is-3.profession KANGSHAN SUPER STEEL ROBOT
-        // End Hero Content
-        // Begin Hero Menu
-        .hero-foot
-            .hero-foot--wrapper
-                .columns
-                    .column.is-12.hero-menu-desktop.has-text-centered.is-size-5
-                        nav.navbar
-                            .navbar-brand
-                                .navbar-item
-                                    a(href="#home") Home
-                                a.navbar-burger.burger(data-target="navbarMenu")
-                                    span
-                                    span
-                                    span
-                            .navbar-menu#navbarMenu
-                                .navbar-start.navbar-center
-                                    .navbar-item
-                                        a(href='#about-us') 關於我們
-                                    .navbar-item
-                                        a(href='#member') 團隊成員
-                                    .navbar-item
-                                        a(href='#activity') 活動紀錄
-                                    .navbar-item
-                                        a(href='#sponsor') 贊助夥伴
-                                    .navbar-item
-                                        a(href='#logging') 工作日誌
-                                    .navbar-item
-                                        a(href='#open-source') 公開資料
-                                    .navbar-item
-                                        a(href='#contact') 聯絡我們
-        // End Hero Menu
-    // End Hero
+// Begin Hero
+section.hero.is-fullheight#home
+    // Begin Hero Content
+    .hero-body
+        .container.has-text-centered
+            h2.subtitle.is-3.has-text-white.pb-3 Hey there, We are
+            h1.title.has-text-white FRC Team 8169
+            h2.subtitle.is-3.has-text-white.pt-6 KANGSHAN SUPER STEEL ROBOT
+    // End Hero Content
+    // Begin Hero Menu
+    .hero-foot.has-background-white
+        nav.navbar.has-text-centered.is-size-5.px-3
+            .navbar-brand
+                .navbar-item
+                    a(href="#home") Home
+                a.navbar-burger.burger(data-target="navbarMenu")
+                    span
+                    span
+                    span
+            .navbar-menu#navbarMenu
+                .navbar-start.navbar-center
+                    .navbar-item
+                        a(href='#about-us') 關於我們
+                    .navbar-item
+                        a(href='#member') 團隊成員
+                    .navbar-item
+                        a(href='#sponsor') 贊助夥伴
+                    .navbar-item
+                        a(href='#activity') 活動紀錄
+                    .navbar-item
+                        a(href='#robot') 機器人介紹
+                    .navbar-item
+                        a(href='#logging') 工作日誌
+                    .navbar-item
+                        a(href='#open-data') 公開資料
+                    .navbar-item
+                        a(href='#contact') 聯絡我們
+    // End Hero Menu
+// End Hero
 // End Header

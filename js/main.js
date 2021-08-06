@@ -1,7 +1,7 @@
-AOS.init({
+/*AOS.init({
     easing: "ease-out",
     duration: 800,
-});
+});*/
 
 $(document).ready(function() {
 

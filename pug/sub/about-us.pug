@@ -1,10 +1,11 @@
 // Begin About Us Section
-#about-us.section-light.about-us
+section.section.about-us#about-us
     .container
-        .column.is-12.about-us
-            h1.title.has-text-centered.section-title.is-size-2 關於我們
+        .columns
+            .column.about-us
+                h1.title.has-text-centered.section-title.is-size-2.has-text-orange 關於我們
         .columns.is-multiline
-            .column.is-6.has-vertically-aligned-content(data-aos='fade-right')
+            .column.is-6.has-vertically-aligned-content
                 p.is-size-5
                     strong
                         | Team 8169 是於 2020 年成立的一支新秀隊伍。共有 17 位成員及 1 位教練，由岡山高中和鳳山高中的學生組成。
@@ -17,14 +18,6 @@
                     | 教練則是由岡山高中郭銘哲老師擔任，
                     | 我們是岡山高中的機器人競賽校隊，而非社團及補習班。
                 br
-                p.is-size-4
-                    strong
-                        | 「教育不該照本宣科」
-                br
-                p.is-size-5
-                    strong
-                        | 是我們團隊的理念，我們相信透過動手嘗試，修正錯誤才是最佳的學習方法。
-                br
                 p.is-size-5
                     strong 獲獎事蹟
                     .content
@@ -34,7 +27,20 @@
                             li 2020 年台中科學園區 5G 數位區域賽 最佳自動獎 (Autonomous Award)
                             li 2020 年台中科學園區 5G 數位區域賽 第二名 (Finalist Award)
                             li 2021 年中科友誼賽 冠軍
-            .column.is-6.right-image(data-aos='fade-left')
-                //img.is-rounded(src='https://picsum.photos/id/366/600/375' alt='')
-                img.is-rounded(src='img/about-us.jpg')
+            .column.is-6.has-img-radius-shadow-orange
+                figure.image
+                    img.is-rounded(src='img/about-us.jpg')
+section.section.about-us.has-background-grey-lighter.has-text-orange
+    .container
+        .columns
+            .column.about-us
+                h1.title.has-text-centered.section-title.is-size-2 教育不該照本宣科
+        .columns.is-multiline
+            .column.is-6.has-vertically-aligned-content
+                p.is-size-4
+                    | 「教育不該照本宣科」是我們團隊的理念，我們相信透過動手嘗試，修正錯誤才是最佳的學習方法。
+
+            .column.is-6.has-iframe-radius-shadow-black
+                figure.image.is-16by9
+                    iframe(class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/yeQ-fVgm94k" frameborder="0" allowfullscreen)
 // End About Us Section
