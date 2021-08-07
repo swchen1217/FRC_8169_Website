@@ -112,6 +112,10 @@ body {
     color: #f18a23;
 }
 
+.has-text-blue {
+    color: #1d4a83;
+}
+
 .has-background-orange {
     background-color: #f18a23;
 }
@@ -120,7 +124,11 @@ body {
     background-color: #1d4a83;
 }
 
-.has-img-shadow-orange img {
+.has-background-cream {
+    background-color: #F2E5C4;
+}
+
+.has-shadow-orange {
     box-shadow: 0 0 20px rgba(241, 138, 35, 0.5);
 }
 
@@ -134,11 +142,6 @@ body {
 
 .has-radius-15-top {
     border-radius: 15px 15px 0 0;
-}
-
-.has-iframe-radius-shadow-black iframe {
-    border-radius: 15px;
-    box-shadow: 0 0 20px #000000;
 }
 
 .has-vertically-aligned-content {
@@ -158,6 +161,16 @@ body {
 
 .about-us ul {
     margin-top: 8px;
+}
+
+.activity .timeline-content {
+    width: 100%;
+}
+
+.activity .timeline .timeline-item::before,
+.activity .timeline .timeline-item .timeline-marker {
+    background: #4a4a4a;
+    border-color: #4a4a4a;
 }
 
 .footer {

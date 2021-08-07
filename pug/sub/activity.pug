@@ -1,0 +1,41 @@
+// Begin Activity Section
+section.section.activity.has-background-cream#activity
+    .container
+        .columns
+            .column
+                h1.title.has-text-centered.section-title.is-size-2 活動紀錄
+
+        .columns
+            .column
+                .timeline
+                    .timeline-header
+                        span.tag.is-large.is-primary 旅途開始
+                    .timeline-item
+                        .timeline-marker
+                        .timeline-content
+                            p
+                    each item in activities
+                        if item.year != null
+                            .timeline-header
+                                span.tag.is-primary.is-medium= item.year
+                        else
+                            .timeline-item
+                                .timeline-marker
+                                .timeline-content
+                                    .columns
+                                        .column
+                                            p.is-size-5
+                                                strong= `${item.month} - ${item.name}`
+                                            p= item.description
+                                    .columns.is-multiline
+                                        each i in [1, 2, 3, 4]
+                                            .column.is-3
+                                                figure.image.is-3by2
+                                                    img.has-radius-15.has-shadow-black(src=`img/activity/${item.dir}/${i}.jpg`)
+                    .timeline-item
+                        .timeline-marker
+                        .timeline-content
+                            p
+                    .timeline-header
+                        span.tag.is-large.is-primary 未完待續
+// End Activity Section
