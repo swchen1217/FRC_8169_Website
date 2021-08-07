@@ -2,12 +2,12 @@
 section.section.member.has-background-orange#member
     .container
         .columns
-            .column.about-us
+            .column
                 h1.title.has-text-centered.section-title.is-size-2.has-text-white 各組簡介
         .columns.is-multiline.is-centered
             each item in groups
                 .column.is-4
-                    .card.large.has-shadow-black.has-radius-15
+                    .card.has-shadow-black.has-radius-15
                         .card-image
                             figure.image.is-16by9
                                 img(src=item.photo).has-radius-15-top
@@ -22,12 +22,12 @@ section.section.member.has-background-orange#member
 section.section.member.has-background-blue
     .container
         .columns
-            .column.about-us
+            .column
                 h1.title.has-text-centered.section-title.is-size-2.has-text-white 成員簡介
         .columns.is-multiline.is-centered
             each item in members
                 .column.is-3
-                    .card.large.has-shadow-black.has-radius-15
+                    .card.has-shadow-black.has-radius-15
                         .card-image
                             figure.image.is-4by3
                                 img(src=item.photo).has-radius-15-top

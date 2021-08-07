@@ -1,0 +1,26 @@
+// Begin Sponsor Section
+section.section.sponsor#sponsor
+    .container
+        .columns
+            .column
+                h1.title.has-text-centered.section-title.is-size-2.has-text-orange 贊助夥伴
+        .columns.is-multiline.is-centered
+            each item in sponsors
+                .column.is-4
+                    .card.has-shadow-black.has-radius-15
+                        .card-image.has-text-centered
+                            figure.image.is-128x128.is-inline-block.py-3
+                                img(src=item.logo).has-radius-15-top
+                        .card-content
+                            .media.has-text-centered
+                                .media-content
+                                    p.title.is-4= item.name
+        .columns.has-text-centered.mt-2
+            .column
+                p.is-size-4
+                    | 感謝你們的支持，讓我們可以更加進步，持續推廣 STEAM 教育！
+                    br
+                    | 若有意願支持我們的行動，歡迎透過以下信箱與我們聯繫～
+                    br
+                    a(href="mailto:kssh8169@gmail.com") kssh8169@gmail.com
+// End Sponsor Section

@@ -160,12 +160,6 @@ body {
     margin-top: 8px;
 }
 
-.member .card {
-    /*overflow: hidden;*/
-    /*background: ghostwhite;*/
-    /*color: black;*/
-}
-
 .footer {
     padding: 24px;
     background-color: hsl(0, 0%, 21%);
