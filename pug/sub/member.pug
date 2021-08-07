@@ -1,0 +1,56 @@
+// Begin Member Section
+section.section.member.has-background-orange#member
+    .container
+        .columns
+            .column.about-us
+                h1.title.has-text-centered.section-title.is-size-2.has-text-white 各組簡介
+        .columns.is-multiline.is-centered
+            each item in groups
+                .column.is-4
+                    .card.large.has-shadow-black.has-radius-15
+                        .card-image
+                            figure.image.is-16by9
+                                img(src=item.photo).has-radius-15-top
+                        .card-content
+                            .media
+                                .media-left
+                                    i.fa-3x(class=item.icon)
+                                .media-content
+                                    p.title.is-4= item.title
+                                    p.subtitle.is-6= item.subtitle
+                            .content= item.description
+section.section.member.has-background-blue
+    .container
+        .columns
+            .column.about-us
+                h1.title.has-text-centered.section-title.is-size-2.has-text-white 成員簡介
+        .columns.is-multiline.is-centered
+            each item in members
+                .column.is-3
+                    .card.large.has-shadow-black.has-radius-15
+                        .card-image
+                            figure.image.is-4by3
+                                img(src=item.photo).has-radius-15-top
+                        .card-content
+                            .media.has-text-centered
+                                .media-content
+                                    p.title.is-4= item.name
+                                    p.subtitle.is-6= `#${item.school}, Join in ${item.join}`
+                            if item.tags.length > 0
+                                .content
+                                    .field.is-grouped.is-grouped-multiline.has-addons.has-addons-centered
+                                        each tag in item.tags
+                                            .control
+                                                if Array.isArray(tag)
+                                                    .tags.are-medium.has-addons
+                                                        span.tag(class=member_tag_colors[tag[0]])= tag[0]
+                                                        span.tag.is-dark= tag[1]
+                                                else
+                                                    .tags.are-medium
+                                                        span.tag(class=member_tag_colors[tag])= tag
+                            if item.links.length > 0
+                                .buttons.is-centered.are-medium
+                                    each link in item.links
+                                        .button.is-rounded(onclick=`window.open('${link.link}');`)
+                                            i(class=link.icon)
+// End Member Section

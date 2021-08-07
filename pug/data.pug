@@ -1,0 +1,244 @@
+-
+    var groups = [
+        {
+            title: "機構組",
+            subtitle: "組長：楊泓益",
+            photo: "img/group/mechanism.jpg",
+            icon: "fas fa-cogs",
+            description: "各種機構相關...",
+        },
+        {
+            title: "繪圖組",
+            subtitle: "組長：林柏瀚",
+            photo: "img/group/CAD.png",
+            icon: "fas fa-drafting-compass",
+            description: "CAD繪圖、動態模擬",
+        },
+        {
+            title: "電機組",
+            subtitle: "組長：陳思惟",
+            photo: "img/group/electrical2.jpg",
+            icon: "fas fa-bolt",
+            description: "各種電機相關...",
+        },
+        {
+            title: "程式組",
+            subtitle: "組長：黃晨恩",
+            photo: "img/group/program.jpg",
+            icon: "fas fa-code",
+            description: "各種程式相關...",
+        },
+        {
+            title: "公關組",
+            subtitle: "組長：黃峻輊",
+            photo: "img/group/PR.jpg",
+            icon: "fas fa-handshake",
+            description: "各種公關相關...",
+        },
+        {
+            title: "Driver Team",
+            subtitle: "",
+            photo: "img/group/driver_team2.jpg",
+            icon: "fas fa-gamepad",
+            description: "各種駕駛相關...",
+        },
+    ];
+
+    var members = [
+        {
+            name: "郭銘哲",
+            school: "岡山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                "指導老師",
+            ],
+            links: [
+                {
+                    icon: "fas fa-envelope",
+                    link: "mailto:kssh8169@gmail.com",
+                },
+                {
+                    icon: "fas fa-phone",
+                    link: "tel:0936653772",
+                },
+            ],
+        },
+        {
+            name: "林柏瀚",
+            school: "鳳山高中",
+            join: "2019.12.",
+            photo: "img/member/BHL.png",
+            tags: [
+                "隊長",
+                ["繪圖組", "組長"],
+                "Driver Team",
+                ["機構", "Intake"],
+            ],
+            links: [
+                {
+                    icon: "fas fa-envelope",
+                    link: "mailto:kodori209@gmail.com",
+                },
+            ],
+        },
+        {
+            name: "王庭豐",
+            school: "岡山高中",
+            join: "2019.10.",
+            photo: "img/member/TFW.jpeg",
+            tags: [
+                "副隊長",
+                "電機組",
+                "程式組",
+                "Driver Team",
+                ["機構", "Storage"],
+
+            ],
+            links: [
+                {
+                    icon: "fas fa-envelope",
+                    link: "mailto:wayne6214361@gmail.com",
+                },
+            ],
+        },
+        {
+            name: "陳思惟",
+            school: "鳳山高中",
+            join: "2020.07.",
+            photo: "img/member/SWC.jpg",
+            tags: [
+                ["電機組", "組長"],
+                "程式組",
+                "Driver Team",
+                ["機構", "Climber"],
+            ],
+            links: [
+                {
+                    icon: "fas fa-envelope",
+                    link: "mailto:swchen1217@gmail.com",
+                },
+                {
+                    icon: "fab fa-github",
+                    link: "https://github.com/swchen1217",
+                },
+            ],
+        },
+        {
+            name: "楊泓益",
+            school: "岡山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                ["機構組", "組長"],
+                "繪圖組",
+                "Driver Team",
+                ["機構", "Shooter"],
+            ],
+            links: [],
+        },
+        {
+            name: "黃峻輊",
+            school: "鳳山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                ["公關組", "組長"],
+                "機構組",
+            ],
+            links: [
+                {
+                    icon: "fas fa-envelope",
+                    link: "mailto:kssh8169@gmail.com",
+                },
+            ],
+        },
+        {
+            name: "黃晨恩",
+            school: "鳳山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                ["程式組", "組長"],
+                "電機組",
+                "Driver Team",
+            ],
+            links: [
+                {
+                    icon: "fas fa-envelope",
+                    link: "mailto:weli30201220@gmail.com",
+                },
+            ],
+        },
+        {
+            name: "盧家婕",
+            school: "岡山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                "機構組",
+                "程式組",
+                "總務",
+                "攝影",
+                ["機構", "Bumper"],
+            ],
+            links: [],
+        },
+        {
+            name: "謝宇堯",
+            school: "岡山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                "機構組",
+                "繪圖組",
+            ],
+            links: [],
+        },
+        {
+            name: "郭均睿",
+            school: "岡山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                "機構組",
+                ["機構", "Lollipop"],
+            ],
+            links: [],
+        },
+        {
+            name: "郭子諄",
+            school: "岡山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                "繪圖組",
+            ],
+            links: [],
+        },
+        {
+            name: "張羽沛",
+            school: "岡山高中",
+            join: "Unknown",
+            photo: "img/member/default_man.png",
+            tags: [
+                "程式組",
+            ],
+            links: [],
+        },
+    ];
+
+    var member_tag_colors = {
+        "機構組": "is-primary",
+        "繪圖組": "is-success",
+        "電機組": "is-danger",
+        "程式組": "is-warning",
+        "公關組": "is-link",
+        "Driver Team": "is-orange",
+        "隊長": "is-dark",
+        "副隊長": "is-dark",
+        "機構": "is-primary",
+        "指導老師": "is-blue",
+        "總務": "is-info",
+        "攝影": "is-info",
+    }
