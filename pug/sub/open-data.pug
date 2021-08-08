@@ -1,0 +1,26 @@
+// Begin Open Data Section
+section.section.open-data.has-background-blue#open-data
+    .container
+        .columns
+            .column
+                h1.title.has-text-centered.section-title.is-size-2.has-text-white 公開資料
+        .columns
+            .column
+                table.table.is-striped.is-fullwidth
+                    thead
+                        tr
+                            th 發布日期
+                            th 名稱
+                            th 描述
+                            th 連結
+                    tbody
+                        each item in openDatas
+                            tr
+                                th= item.date
+                                th= item.name
+                                th= item.description
+                                th
+                                    each link in item.link
+                                        a(href=link.uri)= link.text
+                                        br
+// End Open Data Section
