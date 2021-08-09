@@ -173,6 +173,10 @@ body {
     border-color: #4a4a4a;
 }
 
+.contact a {
+    color: #1d4a83;
+}
+
 .footer {
     padding: 24px;
 }
