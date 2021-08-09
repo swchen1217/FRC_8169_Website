@@ -73,7 +73,7 @@ function renderDaily(data) {
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-content">
                   <div class="media has-text-centered mb-4">
-                    <div class="media-content"><a class="title is-4" href="https://hackmd.io/${item['shortId']}" target="_blank">${escapeHtml(item['title'])}</a><br>
+                    <div class="media-content"><a class="title is-4" href="https://hackmd.io/@${data['team']['path']}/${item['shortId']}" target="_blank">${escapeHtml(item['title'])}</a><br>
                       <p class="subtitle is-6">Published At ${new Date(item['publishedAt']).toLocaleDateString()}</p>
                     </div>
                   </div>
