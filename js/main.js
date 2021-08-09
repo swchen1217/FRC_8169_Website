@@ -8,11 +8,7 @@ var hackmd_url = "https://api.allorigins.win/raw?url=https://hackmd.io/api/@FRC-
 $(document).ready(function () {
     // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function () {
-
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        $(".navbar-burger").toggleClass("is-active");
-        $(".navbar-menu").toggleClass("is-active");
-
+        toggleNavbar();
     });
 
     fetch(`${hackmd_url}?nocache=${Date.now()}`)
@@ -23,6 +19,12 @@ $(document).ready(function () {
             renderDaily(data)
         });
 });
+
+function toggleNavbar() {
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".navbar-burger").toggleClass("is-active");
+    $(".navbar-menu").toggleClass("is-active");
+}
 
 window.onscroll = function () {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -35,6 +37,8 @@ window.onscroll = function () {
 // Smooth Anchor Scrolling
 $("a[href^='#']").on("click", function (event) {
     event.preventDefault();
+    if($(".navbar-menu").hasClass('is-active'))
+        toggleNavbar();
     //console.log($.attr(this, "href"));
     //$("nav.navbar").find(".is-active").removeClass("is-active");
     //$(this).parent().addClass("is-active");
