@@ -1,14 +1,19 @@
-@import "fontFakePearl.css";
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 
-/*@font-face {
+@font-face {
+    font-family: FakePearl;
+    font-weight: 400;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+}
+
+@font-face {
     font-family: 'Noto Sans TC';
     font-style: normal;
     font-weight: 400;
     src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
     url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
     url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
-}*/
+}
 
 /*
 theme colors
@@ -26,7 +31,7 @@ html {
 }
 
 body {
-    font-family: FakePearl, sans-serif;
+    font-family: FakePearl, 'Noto Sans TC', sans-serif;
     font-weight: 400;
     width: 100%;
 }
@@ -75,7 +80,7 @@ body {
 }
 
 .hero .title {
-    font-family: 'Kaushan Script', sans-serif;
+    font-family: 'Kaushan Script', 'Noto Sans TC', sans-serif;
     transform: rotate(-5deg);
     font-size: 5rem;
 }
@@ -85,7 +90,7 @@ body {
 }
 
 .hero .hero-foot nav {
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
