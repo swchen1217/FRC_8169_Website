@@ -182,6 +182,10 @@ body {
     color: #1d4a83;
 }
 
+.member button {
+    max-width: 300px;
+}
+
 .footer {
     padding: 24px;
 }

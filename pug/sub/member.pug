@@ -6,9 +6,16 @@ section.section.member.has-background-orange#member
                 h1.title.has-text-centered.section-title.is-size-2.has-text-white 各組簡介
         .columns
             .column
+                .notification.is-danger.has-text-centered
+                    p.is-size-4 8/26 新生體驗活動開跑囉！名額有限，還不把握機會報名
+                    button.button.is-light.mt-2.is-fullwidth.is-rounded.is-inline-block(onclick="window.open('https://forms.gle/nfL3c3QyfBM3TLoR8');")
+                        strong 現在就報！
+        .columns
+            .column
                 .notification.is-info.has-text-centered
-                    p.is-size-4 熱情招募中！想要加入我們的行列嗎？
-                        button.button.is-light.ml-2(onclick="window.open('');" disabled) 體驗報名尚未開放
+                    p.is-size-4 隊員熱情招募中！想要加入我們的行列嗎？
+                    button.button.is-light.mt-2.is-fullwidth.is-rounded.is-inline-block(onclick="window.open('https://forms.gle/yZ98iy1onJwGQQjF9');")
+                        strong 我有興趣！
         .columns.is-multiline.is-centered
             each item in groups
                 .column.is-4
