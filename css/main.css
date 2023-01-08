@@ -72,7 +72,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(rgba(29, 74, 131, 0.65), rgba(241, 138, 35, 0.65)), rgba(0, 0, 0, 0) url("../img/banner_bg2.jpg") no-repeat;
+    background: linear-gradient(rgba(29, 74, 131, 0.65), rgba(241, 138, 35, 0.65)), rgba(0, 0, 0, 0) url("../img/banner_bg3.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -121,8 +121,17 @@ body {
     color: #1d4a83;
 }
 
+.has-background-pink {
+    background-color: #FF69B4
+    ;
+}
+
 .has-background-orange {
     background-color: #f18a23;
+}
+
+.has-background-yellow {
+    background-color: #ebc93f;
 }
 
 .has-background-blue {

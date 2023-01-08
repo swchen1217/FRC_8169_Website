@@ -49,7 +49,8 @@
               <!--.navbar-itema(href='#robot') 機器人介紹
               -->
               <div class="navbar-item"><a href="#daily">團隊日常</a></div>
-              <div class="navbar-item"><a href="#open-data">公開資料</a></div>
+              <!--.navbar-itema(href='#open-data') 公開資料
+              -->
               <div class="navbar-item"><a href="#contact">聯絡我們</a></div>
             </div>
           </div>
@@ -72,23 +73,23 @@
           <div class="columns is-multiline">
             <div class="column is-6 has-vertically-aligned-content">
               <p class="is-size-5"><strong>
-                  Team 8169 是於 2020 年成立的一支新秀隊伍。共有 14 位成員及 1 位教練，由岡山高中和鳳山高中的學生組成。
+                  Team 8169 是於 2020 年成立的一支新秀隊伍。共有 20位成員及 3 位教練，由岡山高中、高雄中學和高雄女中的學生組成。
                   我們舉辦多項活動致力於推廣 STEM 教育，擴大FRC社區。</strong></p><br>
               <p>
                 8169 這組數字代表著我們是 FIRST Robotics Competition 比賽中第 8169 個註冊的隊伍。
                 成立於2020年，我們的前身是 Team 7741，後來由於人數變多就自己獨立註冊了一個隊伍，
-                其中 4 位成員來自國立鳳山高中，9 位成員來自國立岡山高中，
-                教練則是由岡山高中郭銘哲老師擔任，
+                教練主要由岡山高中郭銘哲老師擔任，
                 我們是岡山高中的機器人競賽校隊，而非社團及補習班。
               </p><br>
               <p class="is-size-5"><strong>獲獎事蹟</strong>
                 <div class="content">
                   <ul>
-                    <li>2019年 區域賽 冠軍 (7741 時期)</li>
+                    <li>2019 年區域賽 冠軍 (7741 時期)</li>
                     <li>2020 年南科授旗模擬賽 第4名</li>
                     <li>2020 年台中科學園區 5G 數位區域賽 最佳自動獎 (Autonomous Award)</li>
                     <li>2020 年台中科學園區 5G 數位區域賽 第二名 (Finalist Award)</li>
                     <li>2021 年中科友誼賽 冠軍</li>
+                    <li>2022 年New Taipei City X HonHai Regional 創新獎</li>
                   </ul>
                 </div>
               </p>
@@ -120,7 +121,7 @@
         </div>
       </section>
       <!-- End About Us Section-->
-      <!-- Begin Member Section-->
+      <!-- Begin Mentor Section-->
       <section class="section member has-background-orange" id="member">
         <div class="container">
           <div class="columns">
@@ -135,26 +136,25 @@
                   button.button.is-light.mt-2.is-fullwidth.is-rounded.is-inline-block(onclick="window.open('https://forms.gle/nfL3c3QyfBM3TLoR8');")
                       strong 現在就報！
           -->
-          <div class="columns">
-            <div class="column">
-              <div class="notification is-info has-text-centered">
-                <p class="is-size-4">隊員熱情招募中！想要加入我們的行列嗎？</p>
-                <button class="button is-light mt-2 is-fullwidth is-rounded is-inline-block" onclick="window.open('https://forms.gle/yZ98iy1onJwGQQjF9');"><strong>我有興趣！</strong></button>
-              </div>
-            </div>
-          </div>
+          <!--.columns
+          .column
+              .notification.is-info.has-text-centered
+                  p.is-size-4 隊員熱情招募中！想要加入我們的行列嗎？
+                  button.button.is-light.mt-2.is-fullwidth.is-rounded.is-inline-block(onclick="window.open('https://forms.gle/yZ98iy1onJwGQQjF9');")
+                      strong 我有興趣！
+          -->
           <div class="columns is-multiline is-centered">
             <div class="column is-4">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/mechanism2.jpg"></figure>
+                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/mechanism.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media">
                     <div class="media-left"><i class="fa-3x fas fa-cogs"></i></div>
                     <div class="media-content">
                       <p class="title is-4">機構組</p>
-                      <p class="subtitle is-6">組長：楊泓益</p>
+                      <p class="subtitle is-6">組長：何泓逸</p>
                     </div>
                   </div>
                   <div class="content">各種機構相關...</div>
@@ -171,7 +171,7 @@
                     <div class="media-left"><i class="fa-3x fas fa-drafting-compass"></i></div>
                     <div class="media-content">
                       <p class="title is-4">繪圖組</p>
-                      <p class="subtitle is-6">組長：林柏瀚</p>
+                      <p class="subtitle is-6">組長：陳翊嘉</p>
                     </div>
                   </div>
                   <div class="content">CAD繪圖、動態模擬</div>
@@ -181,14 +181,14 @@
             <div class="column is-4">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/electrical2.jpg"></figure>
+                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/electrical.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media">
                     <div class="media-left"><i class="fa-3x fas fa-bolt"></i></div>
                     <div class="media-content">
-                      <p class="title is-4">電機組</p>
-                      <p class="subtitle is-6">組長：陳思惟</p>
+                      <p class="title is-4">電控程式組</p>
+                      <p class="subtitle is-6">組長：蕭澧邦</p>
                     </div>
                   </div>
                   <div class="content">各種電機相關...</div>
@@ -198,31 +198,31 @@
             <div class="column is-4">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/program.jpg"></figure>
+                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/Pneumatics.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media">
-                    <div class="media-left"><i class="fa-3x fas fa-code"></i></div>
+                    <div class="media-left"><i class="fa-3x fas fa-rocket-launch"></i></div>
                     <div class="media-content">
-                      <p class="title is-4">程式組</p>
-                      <p class="subtitle is-6">組長：黃晨恩</p>
+                      <p class="title is-4">氣壓組</p>
+                      <p class="subtitle is-6">組長：黃翔毅</p>
                     </div>
                   </div>
-                  <div class="content">各種程式相關...</div>
+                  <div class="content">符合規定配置氣壓系統，確保管路順暢避免造成危害</div>
                 </div>
               </div>
             </div>
             <div class="column is-4">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/PR.jpg"></figure>
+                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/PR2.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media">
                     <div class="media-left"><i class="fa-3x fas fa-handshake"></i></div>
                     <div class="media-content">
                       <p class="title is-4">公關組</p>
-                      <p class="subtitle is-6">組長：黃峻輊</p>
+                      <p class="subtitle is-6">組長：黃歆淩</p>
                     </div>
                   </div>
                   <div class="content">各種公關相關...</div>
@@ -232,7 +232,7 @@
             <div class="column is-4">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/driver_team2.jpg"></figure>
+                  <figure class="image is-16by9"><img class="has-radius-15-top" src="img/group/driver_team3.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media">
@@ -249,31 +249,24 @@
           </div>
         </div>
       </section>
-      <section class="section member has-background-blue">
+      <section class="section member has-background-yellow">
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="title has-text-centered section-title is-size-2 has-text-white">成員簡介</h1>
+              <h1 class="title has-text-centered section-title is-size-2 has-text-white">Mentor Introduction</h1>
             </div>
           </div>
           <div class="columns is-multiline is-centered">
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/MJK.jpg"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/MJK.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
                       <p class="title is-4">郭銘哲</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2019.01.</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-blue">教練</span></div>
-                      </div>
+                      <p class="subtitle is-6">#KSSH, Join in 2019.01.</p>
                     </div>
                   </div>
                   <div class="buttons is-centered are-medium">
@@ -286,33 +279,17 @@
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/BHL.png"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/RX.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
-                      <p class="title is-4">林柏瀚</p>
-                      <p class="subtitle is-6">#鳳山高中, Join in 2019.12.</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-dark">隊長</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-success">繪圖組</span><span class="tag is-dark">組長</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-orange">Driver Team</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-primary">機構</span><span class="tag is-dark">Intake</span></div>
-                      </div>
+                      <p class="title is-4">謝蓉</p>
+                      <p class="subtitle is-6">#KSHS, Join in 2022.09.</p>
                     </div>
                   </div>
                   <div class="buttons is-centered are-medium">
-                    <div class="button is-rounded" onclick="window.open('mailto:kodori209@gmail.com');"><i class="fas fa-envelope"></i></div>
+                    <div class="button is-rounded" onclick="window.open('mailto:gmchick46@gmail.com');"><i class="fas fa-envelope"></i></div>
                   </div>
                 </div>
               </div>
@@ -320,32 +297,79 @@
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/TFW.jpg"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/TZZ.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">張庭禎</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/PYC.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">程品奕</p>
+                      <p class="subtitle is-6">#NCKU, Join in 2022.06.</p>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('https://www.facebook.com/profile.php?id=100009817681140');"><i class="fab fa-facebook"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/JXF.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">范嘉軒</p>
+                      <p class="subtitle is-6">#NCKU, Join in 2022.06.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/BHL.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">林柏瀚</p>
+                      <p class="subtitle is-6">#FCU, Join in 2019.12.</p>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('mailto:d1108984@o365.fcu.edu.tw');"><i class="fas fa-envelope"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/TFW.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
                       <p class="title is-4">王庭豐</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2019.10.</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-dark">副隊長</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-danger">電機組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-warning">程式組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-orange">Driver Team</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-primary">機構</span><span class="tag is-dark">Storage</span></div>
-                      </div>
+                      <p class="subtitle is-6">#CCU, Join in 2019.10.</p>
                     </div>
                   </div>
                   <div class="buttons is-centered are-medium">
@@ -358,29 +382,13 @@
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/SWC.jpg"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/SWC.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
                       <p class="title is-4">陳思惟</p>
-                      <p class="subtitle is-6">#鳳山高中, Join in 2020.07.</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-danger">電機組</span><span class="tag is-dark">組長</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-warning">程式組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-orange">Driver Team</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-primary">機構</span><span class="tag is-dark">Climber</span></div>
-                      </div>
+                      <p class="subtitle is-6">#NCU, Join in 2020.07.</p>
                     </div>
                   </div>
                   <div class="buttons is-centered are-medium">
@@ -393,81 +401,56 @@
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/YHY.jpg"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/mentor/HYY.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
                       <p class="title is-4">楊泓益</p>
-                      <p class="subtitle is-6">#岡山高中, Join in Unknown</p>
+                      <p class="subtitle is-6">#TKU, Join in 2019.12.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Mentor Section-->
+      <!-- Begin Member Section-->
+      <section class="section member has-background-blue">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <h1 class="title has-text-centered section-title is-size-2 has-text-white">Member Introduction</h1>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered">
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/HYH.jpeg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">何泓逸</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2021.09.</p>
                     </div>
                   </div>
                   <div class="content">
                     <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-dark">隊長</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-success">繪圖組</span></div>
+                      </div>
                       <div class="control">
                         <div class="tags are-medium has-addons"><span class="tag is-primary">機構組</span><span class="tag is-dark">組長</span></div>
                       </div>
                       <div class="control">
-                        <div class="tags are-medium"><span class="tag is-success">繪圖組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-orange">Driver Team</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-primary">機構</span><span class="tag is-dark">Shooter</span></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-3">
-              <div class="card has-shadow-black has-radius-15">
-                <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/HJZ.jpg"></figure>
-                </div>
-                <div class="card-content">
-                  <div class="media has-text-centered">
-                    <div class="media-content">
-                      <p class="title is-4">黃峻輊</p>
-                      <p class="subtitle is-6">#鳳山高中, Join in Unknown</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-link">公關組</span><span class="tag is-dark">組長</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="buttons is-centered are-medium">
-                    <div class="button is-rounded" onclick="window.open('mailto:kssh8169@gmail.com');"><i class="fas fa-envelope"></i></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-3">
-              <div class="card has-shadow-black has-radius-15">
-                <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/HCE.jpg"></figure>
-                </div>
-                <div class="card-content">
-                  <div class="media has-text-centered">
-                    <div class="media-content">
-                      <p class="title is-4">黃晨恩</p>
-                      <p class="subtitle is-6">#鳳山高中, Join in Unknown</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-warning">程式組</span><span class="tag is-dark">組長</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-danger">電機組</span></div>
+                        <div class="tags are-medium"><span class="tag is-danger">電控程式組</span></div>
                       </div>
                       <div class="control">
                         <div class="tags are-medium"><span class="tag is-orange">Driver Team</span></div>
@@ -475,7 +458,7 @@
                     </div>
                   </div>
                   <div class="buttons is-centered are-medium">
-                    <div class="button is-rounded" onclick="window.open('mailto:weli30201220@gmail.com');"><i class="fas fa-envelope"></i></div>
+                    <div class="button is-rounded" onclick="window.open('mailto:hungibob@gmail.com');"><i class="fas fa-envelope"></i></div>
                   </div>
                 </div>
               </div>
@@ -483,66 +466,31 @@
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/JJL.jpg"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/YJC.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
-                      <p class="title is-4">盧家婕</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2019.10.</p>
+                      <p class="title is-4">陳翊嘉</p>
+                      <p class="subtitle is-6">#KSHS, Join in 2021.09.</p>
                     </div>
                   </div>
                   <div class="content">
                     <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
                       <div class="control">
+                        <div class="tags are-medium"><span class="tag is-dark">副隊長</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium has-addons"><span class="tag is-success">繪圖組</span><span class="tag is-dark">組長</span></div>
+                      </div>
+                      <div class="control">
                         <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-link">公關組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-info">總務</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-info">攝影</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-primary">機構</span><span class="tag is-dark">Bumper</span></div>
                       </div>
                     </div>
                   </div>
                   <div class="buttons is-centered are-medium">
-                    <div class="button is-rounded" onclick="window.open('mailto:stu810010@kssh.khc.edu.tw');"><i class="fas fa-envelope"></i></div>
-                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/jj_lu2003/');"><i class="fab fa-instagram"></i></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-3">
-              <div class="card has-shadow-black has-radius-15">
-                <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/YYH.jpg"></figure>
-                </div>
-                <div class="card-content">
-                  <div class="media has-text-centered">
-                    <div class="media-content">
-                      <p class="title is-4">謝宇堯</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2020.11.</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-success">繪圖組</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="buttons is-centered are-medium">
-                    <div class="button is-rounded" onclick="window.open('mailto:stu810460@kssh.khc.edu.tw');"><i class="fas fa-envelope"></i></div>
-                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/hsieh.angus/');"><i class="fab fa-instagram"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://www.facebook.com/profile.php?id=100007995311195');"><i class="fab fa-facebook"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/yijia6608/');"><i class="fab fa-instagram"></i></div>
                   </div>
                 </div>
               </div>
@@ -556,7 +504,7 @@
                   <div class="media has-text-centered">
                     <div class="media-content">
                       <p class="title is-4">郭均睿</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2020.09.</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2020.09.</p>
                     </div>
                   </div>
                   <div class="content">
@@ -565,10 +513,7 @@
                         <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
                       </div>
                       <div class="control">
-                        <div class="tags are-medium"><span class="tag is-success">繪圖組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium has-addons"><span class="tag is-primary">機構</span><span class="tag is-dark">Lollipop</span></div>
+                        <div class="tags are-medium has-addons"><span class="tag is-success">繪圖組</span><span class="tag is-dark">副組長</span></div>
                       </div>
                     </div>
                   </div>
@@ -582,31 +527,170 @@
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/ZJJ.jpg"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/ICW.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
-                      <p class="title is-4">莊子諄</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2020.09.</p>
+                      <p class="title is-4">吳佾棋</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
                     </div>
                   </div>
                   <div class="content">
                     <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
                       <div class="control">
-                        <div class="tags are-medium"><span class="tag is-success">繪圖組</span></div>
+                        <div class="tags are-medium has-addons"><span class="tag is-primary">機構組</span><span class="tag is-dark">副組長</span></div>
                       </div>
                       <div class="control">
-                        <div class="tags are-medium"><span class="tag is-link">公關組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                        <div class="tags are-medium"><span class="tag is-warning">氣壓組</span></div>
                       </div>
                     </div>
                   </div>
                   <div class="buttons is-centered are-medium">
-                    <div class="button is-rounded" onclick="window.open('mailto:diabolojoyce@gmail.com');"><i class="fas fa-envelope"></i></div>
-                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/ttcjan_/');"><i class="fab fa-instagram"></i></div>
+                    <div class="button is-rounded" onclick="window.open('mailto:andrew865353@gmail.com');"><i class="fas fa-envelope"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/flag.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">蕭澧邦</p>
+                      <p class="subtitle is-6">#KSHS, Join in 2022.04.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium has-addons"><span class="tag is-danger">電控程式組</span><span class="tag is-dark">組長</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-link">公關組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('mailto:shou692199@gmail.com');"><i class="fas fa-envelope"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/YXL.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">盧佑璿</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium has-addons"><span class="tag is-danger">電控程式組</span><span class="tag is-dark">副組長</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('daniel0901100696@gmail.com');"><i class="fas fa-envelope"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/XYH.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">黃翔毅</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium has-addons"><span class="tag is-warning">氣壓組</span><span class="tag is-dark">組長</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/xiaoxiang_9_28/');"><i class="fab fa-instagram"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://www.facebook.com/profile.php?id=100027118935607');"><i class="fab fa-facebook"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/CES.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">薛丞恩</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium has-addons"><span class="tag is-warning">氣壓組</span><span class="tag is-dark">副組長</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/xue_04_07/');"><i class="fab fa-instagram"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://www.facebook.com/profile.php?id=100022460112021');"><i class="fab fa-facebook"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/SLH.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">黃歆淩</p>
+                      <p class="subtitle is-6">#KGHS, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-danger">電控程式組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium has-addons"><span class="tag is-link">公關組</span><span class="tag is-dark">組長</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('https://www.facebook.com/sinling.huang.98');"><i class="fab fa-facebook"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/i2trc2._.sl/');"><i class="fab fa-instagram"></i></div>
                   </div>
                 </div>
               </div>
@@ -620,14 +704,11 @@
                   <div class="media has-text-centered">
                     <div class="media-content">
                       <p class="title is-4">張羽沛</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2020.07.</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2020.07.</p>
                     </div>
                   </div>
                   <div class="content">
                     <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-warning">程式組</span></div>
-                      </div>
                       <div class="control">
                         <div class="tags are-medium"><span class="tag is-link">公關組</span></div>
                       </div>
@@ -646,41 +727,13 @@
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/HHY.jpeg"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/WHH.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
-                      <p class="title is-4">何泓逸</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2021.09.</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-danger">電機組</span></div>
-                      </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-warning">程式組</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="buttons is-centered are-medium">
-                    <div class="button is-rounded" onclick="window.open('mailto:hungibob@gmail.com');"><i class="fas fa-envelope"></i></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-3">
-              <div class="card has-shadow-black has-radius-15">
-                <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/WPN.jpg"></figure>
-                </div>
-                <div class="card-content">
-                  <div class="media has-text-centered">
-                    <div class="media-content">
-                      <p class="title is-4">吳珮霓</p>
-                      <p class="subtitle is-6">#岡山高中, Join in 2021.09.</p>
+                      <p class="title is-4">黃偉鴻</p>
+                      <p class="subtitle is-6">#KSHS, Join in 2022.09.</p>
                     </div>
                   </div>
                   <div class="content">
@@ -691,14 +744,12 @@
                       <div class="control">
                         <div class="tags are-medium"><span class="tag is-link">公關組</span></div>
                       </div>
-                      <div class="control">
-                        <div class="tags are-medium"><span class="tag is-info">攝影</span></div>
-                      </div>
                     </div>
                   </div>
                   <div class="buttons is-centered are-medium">
-                    <div class="button is-rounded" onclick="window.open('mailto:penny950213@gmail.com ');"><i class="fas fa-envelope"></i></div>
-                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/pny.213/');"><i class="fab fa-instagram"></i></div>
+                    <div class="button is-rounded" onclick="window.open('mailto:84974881wesley@gmail.com');"><i class="fas fa-envelope"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://www.facebook.com/profile.php?id=100035113096828');"><i class="fab fa-facebook"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://line.me/ti/p/e3giTOTfRN');"><i class="fab fa-line"></i></div>
                   </div>
                 </div>
               </div>
@@ -706,13 +757,66 @@
             <div class="column is-3">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image">
-                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/KTY.jpg"></figure>
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/SYL.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">廖少亦</p>
+                      <p class="subtitle is-6">#KSHS, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-danger">電控程式組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('mailto:0903eason@gmail.com');"><i class="fas fa-envelope"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/YPL.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">李畇頻</p>
+                      <p class="subtitle is-6">#KGHS, Join in 2021.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-link">公關組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/TYK.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
                       <p class="title is-4">郭庭妤</p>
-                      <p class="subtitle is-6">#高雄女中, Join in 2022.02.</p>
+                      <p class="subtitle is-6">#KGHS/New Iberia Senior High, Join in 2022.02.</p>
                     </div>
                   </div>
                   <div class="content">
@@ -724,6 +828,164 @@
                         <div class="tags are-medium"><span class="tag is-info">翻譯</span></div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/JSL.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">林卓璿</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/XYL.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">李翔宇</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-warning">氣壓組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/xiangyu0010/');"><i class="fab fa-instagram"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/KRZ.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">莊凱茹</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-link">公關組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/WYS.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">蘇文奕</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-success">繪圖組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('https://www.facebook.com/profile.php?id=100022988795914');"><i class="fab fa-facebook"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/CHL.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">林千卉</p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-danger">電控程式組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-3">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img class="has-radius-15-top" src="img/member/YXY.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">楊宇修 </p>
+                      <p class="subtitle is-6">#KSSH, Join in 2022.09.</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="field is-grouped is-grouped-multiline has-addons has-addons-centered">
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-primary">機構組</span></div>
+                      </div>
+                      <div class="control">
+                        <div class="tags are-medium"><span class="tag is-danger">電控程式組</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="buttons is-centered are-medium">
+                    <div class="button is-rounded" onclick="window.open('mailto:yuxiuy15@gmail.com');"><i class="fas fa-envelope"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://www.instagram.com/yuxiu9605/');"><i class="fab fa-instagram"></i></div>
+                    <div class="button is-rounded" onclick="window.open('https://line.me/ti/p/I91r6_KH0V');"><i class="fab fa-line"></i></div>
                   </div>
                 </div>
               </div>
@@ -800,12 +1062,54 @@
             <div class="column is-4">
               <div class="card has-shadow-black has-radius-15">
                 <div class="card-image has-text-centered">
-                  <figure class="image is-128x128 is-inline-block py-6"><img class="has-radius-15-top" src=""></figure>
+                  <figure class="image is-128x128 is-inline-block py-6"><img class="has-radius-15-top" src="img/sponsor/YSH.jpg"></figure>
                 </div>
                 <div class="card-content">
                   <div class="media has-text-centered">
                     <div class="media-content">
-                      <p class="title is-4">大林企業</p>
+                      <p class="title is-4">億昇泓實業有限公司</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image has-text-centered">
+                  <figure class="image is-128x128 is-inline-block py-6"><img class="has-radius-15-top" src="img/sponsor/CY.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">丞曜實業有限公司</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image has-text-centered">
+                  <figure class="image is-128x128 is-inline-block py-6"><img class="has-radius-15-top" src="img/sponsor/TG.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">彤駿企業有限公司</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card has-shadow-black has-radius-15">
+                <div class="card-image has-text-centered">
+                  <figure class="image is-128x128 is-inline-block py-6"><img class="has-radius-15-top" src="img/sponsor/ZH.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media has-text-centered">
+                    <div class="media-content">
+                      <p class="title is-4">至宏螺絲有限公司</p>
                     </div>
                   </div>
                 </div>
@@ -814,7 +1118,7 @@
           </div>
           <div class="columns has-text-centered mt-2">
             <div class="column">
-              <p class="is-size-4">感謝你們的支持，讓我們可以更加進步，持續推廣 STEM 教育！<br>若有意願支持我們的行動，歡迎透過以下信箱與我們聯繫～<br><a href="mailto:kssh8169@gmail.com">kssh8169@gmail.com</a></p>
+              <p class="is-size-4">感謝你們的支持，讓我們可以更加進步，持續推廣 STEM 教育！<br>若有意願支持我們的行動，歡迎透過以下信箱與我們聯繫～<br><a href="mailto:ksshfrc8169@kssh.khc.edu.tw">ksshfrc8169@kssh.khc.edu.tw</a></p>
             </div>
           </div>
         </div>
@@ -965,6 +1269,32 @@
                     </div>
                   </div>
                 </div>
+                <div class="timeline-header"><span class="tag is-primary is-medium">2022</span></div>
+                <div class="timeline-item">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <div class="columns">
+                      <div class="column">
+                        <p class="is-size-5"><strong>March - New Taipei City X HonHai Regional</strong></p>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="columns is-multiline">
+                      <div class="column is-3">
+                        <figure class="image is-3by2"><img class="has-radius-15 has-shadow-black" src="img/activity/2022-New Taipei City X HonHai Regional/1.jpg"></figure>
+                      </div>
+                      <div class="column is-3">
+                        <figure class="image is-3by2"><img class="has-radius-15 has-shadow-black" src="img/activity/2022-New Taipei City X HonHai Regional/2.jpg"></figure>
+                      </div>
+                      <div class="column is-3">
+                        <figure class="image is-3by2"><img class="has-radius-15 has-shadow-black" src="img/activity/2022-New Taipei City X HonHai Regional/3.jpg"></figure>
+                      </div>
+                      <div class="column is-3">
+                        <figure class="image is-3by2"><img class="has-radius-15 has-shadow-black" src="img/activity/2022-New Taipei City X HonHai Regional/4.jpg"></figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="timeline-item">
                   <div class="timeline-marker"></div>
                   <div class="timeline-content">
@@ -991,33 +1321,7 @@
         </div>
       </section>
       <!-- End Daily Section-->
-      <!-- Begin Open Data Section-->
-      <section class="section open-data has-background-blue" id="open-data">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <h1 class="title has-text-centered section-title is-size-2 has-text-white">公開資料</h1>
-            </div>
-          </div>
-          <div class="columns">
-            <div class="column">
-              <table class="table is-striped is-fullwidth">
-                <thead>
-                  <tr>
-                    <th>發布日期</th>
-                    <th>名稱</th>
-                    <th>描述</th>
-                    <th>連結</th>
-                  </tr>
-                </thead>
-                <tbody>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Open Data Section-->
+      <!--include ../sub/open-data-->
       <!-- Begin Contact Section-->
       <section class="section contact has-background-cream" id="contact">
         <div class="container">
@@ -1030,7 +1334,7 @@
             <div class="column is-6 has-vertically-aligned-content">
               <div class="content">
                 <p><i class="fas fa-phone"></i> 電話：<a href="tel:076212033">(07)746-3150</a></p>
-                <p><i class="fas fa-envelope"></i> E-mail：<a href="mailto:kssh8169@gmail.com">kssh8169@gmail.com</a></p>
+                <p><i class="fas fa-envelope"></i> E-mail：<a href="mailto:ksshfrc8169@kssh.khc.edu.tw">ksshfrc8169@kssh.khc.edu.tw</a></p>
                 <p><i class="fab fa-instagram"></i> Instagram：<a href="https://www.instagram.com/frc_team8169/">@frc_team8169</a></p>
                 <p><i class="fab fa-facebook"></i> Facebook：<a href="https://www.facebook.com/FRC_team8169-116106759800867/">FRC_team8169</a></p>
                 <p><i class="fab fa-twitter"></i> Twitter：<a href="https://twitter.com/frc_team8169">@frc_team8169</a></p>
